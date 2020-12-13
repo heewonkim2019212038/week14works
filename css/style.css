@@ -1,0 +1,498 @@
+body {
+   background-color: black;
+   background-size: 1920px 1080px;
+}
+
+#wrap {
+    position: relative;
+}
+
+.background {
+    width: 95%;
+    height: 80%;
+    position: absolute;
+    z-index: 8;
+    /* top: 30%; */
+    left: 3%;
+    margin-top: 130px;
+    animation-name: snowtwinkle;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes snowtwinkle {
+    0%{
+        opacity: 0.8;
+    }
+    
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 0.8;
+    }
+}
+
+.title1 {
+    width: 75%;
+    margin-top: 230px;
+    /* margin-left: 280px; */
+    left: 14%;
+    /* top: 50%; */
+    position: absolute;
+    z-index: 15;
+    animation-name: lighttwinkle;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+
+.title2 {
+    width: 75%;
+    margin-top: 230px;
+    /* margin-left: 280px; */
+    left: 14%;
+    /* top: 50%; */
+    position: absolute;
+    z-index: 14;
+}
+
+
+
+.light1 {
+    width: 101%;
+    display: block;
+    text-align: center;
+    margin: 10px 0 0 0;
+    top: 0;
+    margin-left: -10px;
+    position: absolute;
+    z-index: 10;
+    animation-name: lighttwinkle;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+.light2 {
+    width: 101%;
+    display: block;
+    text-align: center;
+    margin: 10px 0 0 0;
+    top: 0;
+    margin-left: -10px;
+    position: absolute;
+    z-index: 1;
+}
+
+/* .grass {
+    width: 49%;
+    height: 49%;
+    display: block;
+    margin-top: 200px;
+    margin-left: -70px;
+    left: 30%;
+    position: absolute;
+    z-index: 3;
+} */
+
+.grass2 {
+    width: 49%;
+    height: 49%;
+    margin-top: 150px;
+    margin-left: -65px;
+    left: 29%;
+    position: absolute;
+    z-index: 3;
+    opacity: 1;
+    animation-name: grassopacity;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+.grass3 {
+    width: 49%;
+    height: 49%;
+    margin-top: 150px;
+    margin-left: -65px;
+    left: 29%;
+    position: absolute;
+    z-index: 2;
+}
+
+
+@-webkit-keyframes grassopacity {
+    0%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    81%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+@-webkit-keyframes lighttwinkle {
+    0%{
+        opacity: 1;
+    }
+    45%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#main {
+    width: 49%;
+    height: 80%;
+    top: 19.5%;
+    margin-left: -65px;
+    left: 29%;
+    /* border: 5px solid yellow; */
+    position: absolute;
+    z-index: 20;
+}
+
+.section1 {
+    width: 300px;
+    height: 100px;
+    /* border: 5px solid blue; */
+    box-sizing: border-box;
+    left: 55%;
+    top: 7%;
+    position: absolute;
+    z-index: 30;
+    animation-name: santakirby1;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes santakirby1 {
+    0%{
+        left: 55%;
+    }
+    100%{
+        left: 47%;
+    }
+}
+
+
+.section2 {
+    width: 300px;
+    height: 100px;
+    /* border: 5px solid gray; */
+    box-sizing: border-box;
+    left: 70%;
+    top: 36%;
+    position: absolute;
+    z-index: 30;
+    animation-name: santakirby2;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes santakirby2 {
+    0%{
+        left: 70%;
+        top: 36%;
+    }
+    100%{
+        left: 50%;
+        top: 36.5%;
+    }
+}
+
+.section3 {
+    width: 300px;
+    height: 100px;
+    /* border: 5px solid red; */
+    box-sizing: border-box;
+    left: 20%;
+    top: 51%;
+    position: absolute;
+    z-index: 30;
+    animation-name: santakirby3;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+}
+
+@-webkit-keyframes santakirby3 {
+    0%{
+        left: 20%;
+        top: 51%;
+    }
+    100%{
+        left: 47%;
+        top: 51.5%;
+    }
+}
+
+
+.section4 {
+    width: 300px;
+    height: 100px;
+    /* border: 5px solid white; */
+    box-sizing: border-box;
+    left: 70%;
+    top: 68%;
+    position: absolute;
+    z-index: 30;
+    animation-name: santakirby4;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes santakirby4 {
+    0%{
+        left: 68%;
+        top: 65%;
+    }
+    100%{
+        left: 40%;
+        top: 65.7%;
+    }
+}
+
+
+
+.section5 {
+    width: 300px;
+    height: 100px;
+    /* border: 5px solid palegreen; */
+    box-sizing: border-box;
+    left: 25%;
+    top: 80%;
+    position: absolute;
+    z-index: 30;
+    animation-name: santakirby5;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+}
+
+@-webkit-keyframes santakirby5 {
+    0%{
+        left: 25%;
+        top: 80%;
+    }
+    100%{
+        left: 38%;
+        top: 80.5%;
+    }
+}
+
+
+
+
+.santa1, .santa2, .santa3 {
+    width: 30%;
+}
+
+.santa1 {
+    position: absolute;
+    z-index: 45;
+    animation-name: santa1;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+}
+
+.santa2{
+    position: absolute;
+    z-index: 40;
+    opacity: 0;
+    animation-name: santa2;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+}
+
+.santa3{
+    position: absolute;
+    z-index: 35;
+    opacity: 0;
+    animation-name: santa3;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+}
+
+
+
+
+
+.santa-1, .santa-2, .santa-3 {
+    width: 30%;
+}
+
+
+.santa-1-1, .santa-2-1, .santa-3-1 {
+    width: 30%;
+}
+
+
+
+
+.santa-1 {
+    position: absolute;
+    z-index: 45;
+    animation-name: santa1;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+}
+
+.santa-2{
+    position: absolute;
+    z-index: 40;
+    opacity: 0;
+    animation-name: santa2;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+}
+
+.santa-3{
+    position: absolute;
+    z-index: 35;
+    opacity: 0;
+    animation-name: santa3;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+}
+
+
+
+.santa-1-1 {
+    position: absolute;
+    z-index: 45;
+    animation-name: santa1;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 1s;
+}
+
+.santa-2-1{
+    position: absolute;
+    z-index: 40;
+    opacity: 0;
+    animation-name: santa2;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 1s;
+}
+
+.santa-3-1{
+    position: absolute;
+    z-index: 35;
+    opacity: 0;
+    animation-name: santa3;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 1s;
+}
+
+
+@-webkit-keyframes santa1 {
+    0%{
+        opacity: 1;
+    }
+    1%{
+        opacity: 0;
+    }
+    94%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes santa2 {
+    0%{
+        opacity: 0;
+    }
+    1%{
+        opacity: 1;
+    }
+    46%{
+        opacity: 1;
+    }
+    47%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes santa3 {
+    0%{
+        opacity: 0;
+    }
+    46%{
+        opacity: 0;
+    }
+    47%{
+        opacity: 1;
+    }
+    96%{
+        opacity: 1;
+    }
+    97%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.music {
+    width: 15%;
+    position: absolute;
+    z-index: 300;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+}
